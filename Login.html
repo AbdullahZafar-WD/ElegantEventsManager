@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elegant Events</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Use Google Fonts for cleaner look -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Optionally include font awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+
+  /* body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    color: #2a0f0f;
+    margin: 0;
+    padding: 40px;
+  } */
+
+  .container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    padding: 50px;
+    margin: 50px;
+    margin-left: 18%;
+  }
+
+  .form-container {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .form-container h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-container label {
+    margin: 10px 0 5px;
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container input[type="password"] {
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+  }
+
+  .form-container input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  .form-container .btn {
+    margin-top: 15px;
+    background-color: #002366;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .form-container .lost-password {
+    color: #ffd700;
+    margin-top: 10px;
+    font-size: 13px;
+    text-decoration: none;
+  }
+
+  .form-container p {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .privacy-policy {
+    color: #ffd700;
+    text-decoration: none;
+  }
+</style>
+ 
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="navbar-top">
+      <div class="logo">
+        <!-- <img src="https://via.placeholder.com/50" alt="Elegant Events" /> -->
+        <span>Elegant Events</span>
+      </div>
+      <div class="search-bar">
+        <select>
+          <option>All</option>
+        </select>
+        <input type="text" placeholder="Search your favorite product..." />
+        <button>Search</button>
+      </div>
+      <div class="icons">
+        <div class="icon-item">
+          <a href="Login.html" style="color: white; text-decoration: none;"><i class="fa-regular fa-user"></i></a>
+          <a href="Login.html" style="color: white; text-decoration: none;"><span>Sign In<br/>Account</span></a>
+        </div>
+        <div class="icon-item">
+          <a href="Wishlist.html" style="color: white; text-decoration: none;"><i class="fa-regular fa-heart"></i></a>
+        </div>
+        <div class="icon-item">
+          <a href="Cart.html" style="color: white; text-decoration: none;"><i class="fa-solid fa-cart-shopping"></i></a>
+          <a href="Cart.html" style="color: white; text-decoration: none;"><span>Total<br/>Rs0.00</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-bottom">
+      <div class="categories-dropdown">
+        <i class="fa-solid fa-bars"></i>
+        <span>All Categories</span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="Shop.html">Shop</a>
+        <a href="Offers.html">Offers</a>
+        <a href="WholeSale.html">Whole Sale</a>
+        <a href="AboutUS.html">About Us</a>
+        <a href="ContactUs.html">Contact Us</a>
+      </nav>
+      <div class="super-discount">
+        <i class="fa-solid fa-percent"></i>
+        <span>Only this weekend<br/>Super Discount</span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+    </div>
+  </header>
+
+  <div class="promo-slider">
+        <div class="slider-track">
+            &nbsp;&nbsp;|® DEVELOPED BY ABDULLAH ZAFAR &nbsp;&nbsp;|® DEVELOPED BY ABDULLAH ZAFAR &nbsp;&nbsp;|® DEVELOPED BY ABDULLAH ZAFAR &nbsp;&nbsp;
+        </div>
+    </div>
+
+    <div class="container">
+  <!-- Login Form -->
+  <div class="form-container">
+    <h2>LOGIN</h2>
+    <form>
+      <label>Username or email address *</label>
+      <input type="text" placeholder="" required />
+
+      <label>Password *</label>
+      <input type="password" placeholder="" required />
+
+      <label style="display: flex; align-items: center;">
+        <input type="checkbox" /> Remember me
+      </label>
+
+      <button class="btn" type="submit">Log in</button>
+
+      <a href="#" class="lost-password">Lost your password?</a>
+    </form>
+  </div>
+
+  <!-- Register Form -->
+  <div class="form-container">
+    <h2>REGISTER</h2>
+    <form>
+      <label>Email address *</label>
+      <input type="email" placeholder="" required />
+
+      <p>A link to set a new password will be sent to your email address.</p>
+      <p>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <a class="privacy-policy" href="#">privacy policy</a>.</p>
+
+      <button class="btn" type="submit">Register</button>
+    </form>
+  </div>
+</div>
+
+
+  <section class="newsletter-section">
+        <h2 class="newsletter-header">Be The First To Get Discounts</h2>
+        
+        <div class="newsletter-container">
+            <p class="newsletter-text">
+                Get E-Mail Updates About Our Latest Shop And Special Offers.
+            </p>
+            
+            <form class="newsletter-form">
+                <input type="email" class="email-input" placeholder="Email" required>
+                <button type="submit" class="subscribe-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- First Column: Brand Info -->
+            <div class="footer-column">
+                <div class="brand-name">Elegant Events</div>
+                <p class="about-text">
+                    At Elegant Events, we specialize in making your celebrations unforgettable. From birthdays to weddings, festivals, and beyond, our diverse range of decoration items brings joy and elegance to every occasion.
+                </p>
+            </div>
+            
+            <!-- Second Column: Quick Links -->
+            <div class="footer-column">
+                <h3 class="footer-title">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="AboutUS.html">About Us</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                    <li><a href="WholeSale.html">Whole Sale</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="order-tracking.html">Order Tracking</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
+                </ul>
+            </div>
+            
+            <!-- Third Column: Get In Touch -->
+            <div class="footer-column">
+                <h3 class="footer-title">Get In Touch</h3>
+                <div class="contact-info">
+                    <p><strong>Email:</strong> AZ@webdeveloper.com</p>
+                    <p><strong>Phone:</strong> 0303 1234567</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Chat -->
+<div style="
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+">
+  <a href="https://wa.me/1234567890" target="_blank" style="
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #333;
+    font-size: 15px;
+  ">
+    <span style="margin-right: 10px;">Need Help? <strong>Chat with us</strong></span>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background: #25D366;
+      padding: 6px;
+    ">
+  </a>
+</div>
+
+</body>
+</html>

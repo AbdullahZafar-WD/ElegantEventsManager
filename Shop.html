@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elegant Events</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Use Google Fonts for cleaner look -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Optionally include font awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="navbar-top">
+      <div class="logo">
+        <!-- <img src="https://via.placeholder.com/50" alt="Elegant Events" /> -->
+        <span>Elegant Events</span>
+      </div>
+      <div class="search-bar">
+        <select>
+          <option>All</option>
+        </select>
+        <input type="text" placeholder="Search your favorite product..." />
+        <button>Search</button>
+      </div>
+      <div class="icons">
+        <div class="icon-item">
+          <a href="Login.html" style="color: white; text-decoration: none;"><i class="fa-regular fa-user"></i></a>
+          <a href="Login.html" style="color: white; text-decoration: none;"><span>Sign In<br/>Account</span></a>
+        </div>
+        <div class="icon-item">
+          <a href="Wishlist.html" style="color: white; text-decoration: none;"><i class="fa-regular fa-heart"></i></a>
+        </div>
+        <div class="icon-item">
+          <a href="Cart.html" style="color: white; text-decoration: none;"><i class="fa-solid fa-cart-shopping"></i></a>
+          <a href="Cart.html" style="color: white; text-decoration: none;"><span>Total<br/>Rs0.00</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-bottom">
+      <div class="categories-dropdown">
+        <i class="fa-solid fa-bars"></i>
+        <span>All Categories</span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="Shop.html">Shop</a>
+        <a href="Offers.html">Offers</a>
+        <a href="WholeSale.html">Whole Sale</a>
+        <a href="AboutUS.html">About Us</a>
+        <a href="ContactUs.html">Contact Us</a>
+      </nav>
+      <div class="super-discount">
+        <i class="fa-solid fa-percent"></i>
+        <span>Only this weekend<br/>Super Discount</span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+    </div>
+  </header>
+
+  <div class="promo-slider">
+        <div class="slider-track">
+            &nbsp;&nbsp;|® DEVELOPED BY ABDULLAH ZAFAR &nbsp;&nbsp;|® DEVELOPED BY ABDULLAH ZAFAR &nbsp;&nbsp;|® DEVELOPED BY ABDULLAH ZAFAR &nbsp;&nbsp;
+        </div>
+    </div>
+
+    <div class="content">
+    <h2>Welcome to <span>Eventify</span></h2>
+    <p>Find everything you need for your events!</p>
+    <div class="products">
+      <div class="product" onclick="window.location.href='product-details.html?id=1'">
+        <img src="product1.jpg" alt="Birthday Banner" />
+        <h3>Birthday Banner</h3>
+        <p>Price: $10</p>
+      </div>
+      <div class="product" onclick="window.location.href='product-details.html?id=2'">
+        <img src="product2.jpg" alt="Mehndi Decor" />
+        <h3>Mehndi Decor</h3>
+        <p>Price: $25</p>
+      </div>
+      <div class="product" onclick="window.location.href='product-details.html?id=3'">
+        <img src="product3.jpg" alt="Bridal Shower Box" />
+        <h3>Bridal Shower Box</h3>
+        <p>Price: $30</p>
+      </div>
+    </div>
+
+  <section class="newsletter-section">
+        <h2 class="newsletter-header">Be The First To Get Discounts</h2>
+        
+        <div class="newsletter-container">
+            <p class="newsletter-text">
+                Get E-Mail Updates About Our Latest Shop And Special Offers.
+            </p>
+            
+            <form class="newsletter-form">
+                <input type="email" class="email-input" placeholder="Email" required>
+                <button type="submit" class="subscribe-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- First Column: Brand Info -->
+            <div class="footer-column">
+                <div class="brand-name">Elegant Events</div>
+                <p class="about-text">
+                    At Elegant Events, we specialize in making your celebrations unforgettable. From birthdays to weddings, festivals, and beyond, our diverse range of decoration items brings joy and elegance to every occasion.
+                </p>
+            </div>
+            
+            <!-- Second Column: Quick Links -->
+            <div class="footer-column">
+                <h3 class="footer-title">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="AboutUS.html">About Us</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                    <li><a href="WholeSale.html">Whole Sale</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="order-tracking.html">Order Tracking</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
+                </ul>
+            </div>
+            
+            <!-- Third Column: Get In Touch -->
+            <div class="footer-column">
+                <h3 class="footer-title">Get In Touch</h3>
+                <div class="contact-info">
+                    <p><strong>Email:</strong> AZ@wabdecor.com</p>
+                    <p><strong>Phone:</strong> 0303 1234567</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Chat -->
+<div style="
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+">
+  <a href="https://wa.me/1234567890" target="_blank" style="
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #333;
+    font-size: 15px;
+  ">
+    <span style="margin-right: 10px;">Need Help? <strong>Chat with us</strong></span>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background: #25D366;
+      padding: 6px;
+    ">
+  </a>
+</div>
+
+</body>
+</html>
