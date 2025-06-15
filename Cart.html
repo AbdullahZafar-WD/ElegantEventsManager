@@ -9,6 +9,84 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <!-- Optionally include font awesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    .empty-cart-message {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.empty-cart-message h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.empty-cart-message p {
+    color: #666;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.empty-cart-message .button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #026;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.empty-cart-message .button:hover {
+    background-color: #286090;
+}
+
+
+        .cart-item {
+            display: flex;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+        .cart-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        .item-details {
+            flex-grow: 1;
+        }
+        .coupon-section {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f5f5f5;
+        }
+        .cart-totals {
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 300px;
+            margin-left: auto;
+        }
+        table {
+            width: 100%;
+        }
+        .checkout-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        .checkout-btn:hover {
+            background-color: #45a049;
+        }
+
+  </style>
   
 </head>
 <body>
@@ -68,6 +146,12 @@
         </div>
     </div>
 
+    <div class="empty-cart-message">
+    <h2>Your Cart is Empty</h2>
+    <p>You haven't added any products to your cart yet. Start shopping to fill it with amazing items!</p>
+    <a href="Shop.html" class="button">Browse Products</a>
+</div>
+
   <section class="newsletter-section">
         <h2 class="newsletter-header">Be The First To Get Discounts</h2>
         
@@ -92,6 +176,8 @@
                     At Elegant Events, we specialize in making your celebrations unforgettable. From birthdays to weddings, festivals, and beyond, our diverse range of decoration items brings joy and elegance to every occasion.
                 </p>
             </div>
+
+            
             
             <!-- Second Column: Quick Links -->
             <div class="footer-column">
@@ -111,8 +197,8 @@
             <div class="footer-column">
                 <h3 class="footer-title">Get In Touch</h3>
                 <div class="contact-info">
-                    <p><strong>Email:</strong> AZ@webdeveloper.com</p>
-                    <p><strong>Phone:</strong> 0303 1234567</p>
+                    <p><strong>Email:</strong> amadtip@gmail.com</p>
+                    <p><strong>Phone:</strong> 0333 2243753</p>
                 </div>
             </div>
         </div>
@@ -127,7 +213,7 @@
   display: flex;
   align-items: center;
 ">
-  <a href="https://wa.me/1234567890" target="_blank" style="
+  <a href="https://wa.me/923332243753" target="_blank" style="
     display: flex;
     align-items: center;
     background: #fff;

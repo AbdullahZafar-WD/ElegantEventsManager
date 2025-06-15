@@ -1012,3 +1012,30 @@ body {
 .product:hover {
   transform: scale(1.05);
 }
+
+
+/* Social Media icons */
+   body {
+  margin: 0;
+  padding: 0;
+} 
+
+.social-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  gap: 25px;
+  /* background-color: #0e3b30; */
+}
+
+.social-icon {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
